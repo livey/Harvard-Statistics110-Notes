@@ -21,5 +21,5 @@ P(A|A)=1 ,
 P(A \inter B|C)=P(A|C)P(B|C) 
 
 Does conditional independence imply independent? NO. 
-independent 
+Does independent implies conditional independent? NO. 
 
