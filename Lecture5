@@ -1,0 +1,11 @@
+Conditional probability. 
+(1) try simple and extreme cases
+(2) break up problem into simpler cases
+
+law of total probability 
+p(B)=\sum_i p(B,A_i)
+    =\sum_i P(B|A_i)*P(A_i)
+    
+
+Patient gets tested for disease 
+1 percent people afflicts that disease--interesting question
