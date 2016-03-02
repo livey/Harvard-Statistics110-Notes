@@ -1,2 +1,9 @@
 Random Variables 
 
+Binomial distribution 
+X ~ Bin(n,p)
+1) Story : n independent trials, p is the probability of success,X is the number of success. 
+2) Sum of indicator variables X=X1+X2+...+Xn. Xj=1 if success,or 0 if fail. X1,X2,...,Xn are i.i.d= independent identically distribution.
+3) PMF. probability mass function 
+P(X=k) = (n,k)p^k q^(n-k) 
+
