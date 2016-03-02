@@ -4,6 +4,8 @@ Binomial distribution
 X ~ Bin(n,p)
 1) Story : n independent trials, p is the probability of success,X is the number of success. 
 2) Sum of indicator variables X=X1+X2+...+Xn. Xj=1 if success,or 0 if fail. X1,X2,...,Xn are i.i.d= independent identically distribution.
-3) PMF. probability mass function 
+3) PMF. probability mass function (only for discrete variables: possibe values a1,a2,.... can be listed out) 
 P(X=k) = (n,k)p^k q^(n-k) 
+P(X=aj)=pj for all j.pj >= 0 ; sum_j pj=1 
 
+CDF F(x)=P(X<=x) : cumulative distribution function 
