@@ -9,3 +9,23 @@ P(X=k) = (n,k)p^k q^(n-k)
 P(X=aj)=pj for all j.pj >= 0 ; sum_j pj=1 
 
 CDF F(x)=P(X<=x) : cumulative distribution function 
+
+Binomial theorem :
+\sum_{i=0}^N p^n q^{n-k} = (p+q)^N = 1 
+
+Sum of two independent binomian distribution 
+X~ Bin(n,p) Y~Bin(m,p) 
+X+Y ~ Bin(m+n,p) 
+1. immediate story 
+2. X=X1+X2+...Xn Y=Y1+Y2+...+Ym 
+X+Y = X1+X2+...Ym 
+3. P(X+Y=k)=\sum_{j=0)^k P(X+Y=k|X=j)P(X=j) 
+           =\sum_{j=0}^k P(Y=k-j|X=j)P(X=j)
+           =\sum_{j=0)^k P(Y=k-j)P(x=j)
+           =\sum_{j=0}^k (m,k-j)p^{k-j}q^{m-n+j} * (n,j)p^j q^{n-j) 
+=Vandermonde equality 
+
+           
+           
+           
+           
