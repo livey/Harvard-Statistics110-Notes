@@ -4,3 +4,14 @@
 Gambler's ruin problem: Two gamblers A and B, sequence round bets one 1 dollor. p=P(A wins at certain round) q=1-p; 
 Find the probability that A wins all the games. Assuming A starts with i dollors and B starts with (N-i) dollors. 
 Random walk: 
+absorbing state at (0,N) 
+
+Stratege: condition on the first step 
+Let p_i=P(A wins game| A starts at i dollor) 
+
+p_i = p*p_{i+1} + qp_{i-1} , with boundary 1<=i<=N-1; P_0 = 0 ; Pn=1; 
+
+( difference equation ) 
+
+
+
