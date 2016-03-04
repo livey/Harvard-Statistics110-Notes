@@ -69,7 +69,10 @@ E(X)= p*q/p^2=q/p;
 
 Story proof:
 Let c= E(X); 
-c= 0*p+q(1+c)
+c= 0*p+q(1+c): interpretation: if failed the first time. failed the second time, recursively 
+ =q(1+c) 
+ 
+ 
      
 
 
