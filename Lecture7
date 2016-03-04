@@ -1,0 +1,6 @@
+(1)Conditioning : the soul of statistics 
+(2)Random variables and their distribution 
+
+Gambler's ruin problem: Two gamblers A and B, sequence round bets one 1 dollor. p=P(A wins at certain round) q=1-p; 
+Find the probability that A wins all the games. Assuming A starts with i dollors and B starts with (N-i) dollors. 
+Random walk: 
