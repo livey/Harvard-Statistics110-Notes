@@ -16,5 +16,56 @@ P(X=x,Y=y)= P(X=x)P(Y=y)
 
 Averages( Means, Expected Values) 
 
+1,1,1,1,1,3,3,5
+two ways to get the average 
+add, divied by 8, or 5/8*1+2/8*3+1/8*5 
+
+E(X) = \sum_x p(X=x)*x 
+
+X~Ber(p) E(X)=p; 
+
+Indicator random variable
+X={ 1, if a event A happens
+  { 0, otherwise not happen
+  
+E(X) =P(A); fundamental bridge. Bridge the probability of an event with expectation 
+
+X~Bin(n,p) 
+E(X)= \sum_{k=0}^n k*(n,k)p^k q^{n-k) 
+    =\sum_{k=1}^n n(n-1,k-1)p^k q^(n-k) 
+    =n*p \sum_{k=1}^n (n-1,k-1) p^{k-1}q^{n-k} 
+    =np \sum_{k=0}^{n-1} (n-1,j)p^j q^{n-j-1} 
+    =np 
+
+Linearity : 
+E(X+Y) = E(X)+E(Y) , always true, even X and Y are dependent 
+E(cX)= cE(X) 
+
+A better way 
+Since X= X1+ ... + Xn; so E(X) = np;  
+
+Hypergeometric 
+Let X_j be indicatioro of jth card being the acer. 1<= j<=5; 
+E(X) = E(X1+X2+...+X5)=E(X1)+...+E(X5) by semetry 
+     = 5*E(X1) 
+     = 5P( the 1th card is acer) (fundamental bridge) even though X_j is dependent 
+     
+This gives expected value of any Hypergeometric. 
+
+Important distribution 
+Geom(p) 
+     
+     
+
+
+
+
+    
+    
+    
+    
+    
+
+
 
 
