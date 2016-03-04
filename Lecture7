@@ -13,5 +13,14 @@ p_i = p*p_{i+1} + qp_{i-1} , with boundary 1<=i<=N-1; P_0 = 0 ; Pn=1;
 
 ( difference equation ) 
 
+Random variables
+Define Bernoulli : A r.v. X is said to have Bern. distribution if X has 
+two possible values 0 and 1. and P(X=1) = p. P(X=0) = 1-p =q; 
+
+Binomial(n,p) The distribution of number of success in N independent Bernoulli trials. 
+its distribution is given by 
+
+P(X=K)= (n,k)p^k q^{n-1} 
+
 
 
