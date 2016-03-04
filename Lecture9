@@ -53,8 +53,23 @@ E(X) = E(X1+X2+...+X5)=E(X1)+...+E(X5) by semetry
 This gives expected value of any Hypergeometric. 
 
 Important distribution 
-Geom(p) 
-     
+Geom(p): independent Bern(p) trials, cnt of the failures before the first success. 
+PMF: P(X=k) = q^k*p k=0, 1, 2,..
+valid since 
+           \sum_{k=0}^{inf} pq^k = p/(1-q)=1 
+           
+X~Geom(p) 
+E(X)= \sum_{k=0}^{inf} kpq^k 
+    =p\sum_{k=0}^{inf} kq^k 
+    
+for \sum_{k=0}^{inf}q^k = 1/(1-q)  derivative with q on both sides
+    \sum{k=1}^{inf} k*q^{k-1} = 1/(1-q)^2
+so 
+E(X)= p*q/p^2=q/p; 
+
+Story proof:
+Let c= E(X); 
+c= 0*p+q(1+c)
      
 
 
