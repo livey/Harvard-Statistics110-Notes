@@ -25,7 +25,12 @@ X+Y = X1+X2+...Ym
            =\sum_{j=0}^k (m,k-j)p^{k-j}q^{m-n+j} * (n,j)p^j q^{n-j) 
 =Vandermonde equality 
 
-           
+Hypergeometric distribution 
+P(X=k)=(m,k)(n,j-k)/(m+n,J)
+
+\sum_{k=0}^J P(X=k)= 1 
+
+
            
            
            
