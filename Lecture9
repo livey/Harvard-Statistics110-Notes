@@ -1,0 +1,20 @@
+CDF F(x)=P(X<=x), as a function of real x 
+P(1<x<=3) = P(X<=1) + P(1<X<=3) = P(X<=3) 
+P(1<X<=3) = F(3)-F(1);
+
+Property of CDF 
+(1) increasing 
+(2) right continuous 
+(3) F(x)->0 x->-inf. F(x)->1 x->inf 
+
+Independence of r.v.s 
+X ,Y are indep r.v.s if 
+P(X<=x,Y<=y)=P(X<=x)P(Y<=y) for all x, y 
+
+Discrete case :
+P(X=x,Y=y)= P(X=x)P(Y=y) 
+
+Averages( Means, Expected Values) 
+
+
+
