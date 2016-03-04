@@ -22,5 +22,7 @@ its distribution is given by
 
 P(X=K)= (n,k)p^k q^{n-1} 
 
-
+PMF:probability mass function 
+X~ Bin(n,p) Y~Bin(m,p) independent. X+Y ~ Bin(m+n,p) 
+prove: consider Bernoulli trials. 
 
