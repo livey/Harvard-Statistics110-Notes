@@ -11,6 +11,9 @@ Proof of linearity( discrete case)
 
 E(T) = \sum_s (X+Y)(s)P(s) = \sum_s {X(s)+Y(s)} *P(s)
      = \sum_s X(s)P(s)+ Y(s)P(s) =E(X)+E(Y)
+#Similarly, E(cX)=cE(X) 
+     
+     
      
      
      
