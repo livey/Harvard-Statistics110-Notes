@@ -1,0 +1,16 @@
+Linearity of Expectation 
+
+Let T=X+Y . show E(T) = E(X)+ E(Y). 
+
+proof. E(T) = \sum t*P(T=t) =? \sum xP(X=x)+ \sum yP(Y=y) 
+P(T=t)=\sum_x P(T=t|X=x)P(X=x) (?x not available)
+
+E(X)= \sum_x xP(X=x)(grouped)  = \sum_x X(s)P(s)(ungrouped)
+
+Proof of linearity( discrete case) 
+
+E(T) = \sum_s (X+Y)(s)P(s) = \sum_s {X(s)+Y(s)} *P(s)
+     = \sum_s X(s)P(s)+ Y(s)P(s) =E(X)+E(Y)
+     
+     
+     
