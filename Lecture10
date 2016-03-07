@@ -26,6 +26,10 @@ so, this is enough to caculate the expectation of X.
 
 So, E(X) =\sum_j E(X_j)= r*q/p. 
 
+
+
+
+
 X~FS(p) time until 1st success, counting the success. 
 Let Y=X-1, then Y~ Geom(p) E(X) = E(Y)+1= q/p+1 = 1/p. 
 
