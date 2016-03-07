@@ -33,9 +33,23 @@ So, E(X) =\sum_j E(X_j)= r*q/p.
 X~FS(p) time until 1st success, counting the success. 
 Let Y=X-1, then Y~ Geom(p) E(X) = E(Y)+1= q/p+1 = 1/p. 
 
+Examples:
 
+Putram: Random permutation of 1,2,3....n. when n>=2; 
+Question: Find expected number of local maxima? 
+
+Let I_j be the indicator r.v. of position j having a local max, 1<=j<=n; 
+Question E(I_1+I_2+...+I_n) = \sum_j E(I_j) =(n-2)/3 + 2/2 = (n+1)/3 
      
-     
-     
+St. Peterburg Paradox: Get 2^x dollors where x is the number of flips of fair coin 
+until first H, including the success. 
+
+Y=2^x, find E(Y) 
+E(Y) = \sum_{k=1}^{\inf} 2^k/2^k = \sum_{k=1}^{\inf} =\inf 
+
+bound at 2^40. Then \sum_{k=1}^{40} 2^k /2^k =40. 
+
+Caution! 
+E(2^X) != 2^{E(X)) . 
      
      
