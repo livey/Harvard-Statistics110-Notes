@@ -11,7 +11,25 @@ Proof of linearity( discrete case)
 
 E(T) = \sum_s (X+Y)(s)P(s) = \sum_s {X(s)+Y(s)} *P(s)
      = \sum_s X(s)P(s)+ Y(s)P(s) =E(X)+E(Y)
-#Similarly, E(cX)=cE(X) 
+     
+Similarly, E(cX)=cE(X) if c is a constant. 
+
+Here is a extreme case of denpendence: X=Y ,Then E(X+Y)=E(X)+E(Y) = 2E(X) 
+
+Negative Binomial: parameters {r,p} 
+Story: indenpendent Ber(p) trials, #of failures befor the r'rh success.
+
+PMF:  P(X=n)= (n+r-1,r-1)p^(r-1)q^(n)*p =(n+r-1,r-1)p^r*q^n n=0,1,2,...
+E(X)= E(X_1+X_2+...+X_r) X_j is the number of failures between (j-1) and j's success. 
+X_j ~ Geom(p) though X_j and X_i are not independent, but we only want to get the expecation,
+so, this is enough to caculate the expectation of X. 
+
+So, E(X) =\sum_j E(X_j)= r*q/p. 
+
+X~FS(p) time until 1st success, counting the success. 
+Let Y=X-1, then Y~ Geom(p) E(X) = E(Y)+1= q/p+1 = 1/p. 
+
+
      
      
      
