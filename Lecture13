@@ -1,2 +1,24 @@
 Normal distribution 
 
+Universality of Unif Let F ba a continuous, strictly increase CDF 
+Then X=F^{-1}(u) ~F if U~Unif(0,1). 
+
+Also: if X~F, then F(X)~Unif(0,1). 
+F(X)=P(X<=x) 
+
+Ex. Let F(x)=1-E^{-x} ,x >0, U~Unif(0,1)
+Simulate X~F F^{-1}(u)=-ln(1-u) => F^{-1}(u)=-ln(1-u)~ F 
+1-U ~ Unif(0,1)(symmetry of Uniform) 
+
+a+b*U is Uniform on some interval. nonlinear usually leads to nonuniform. 
+
+Independent of Random Variables: X1,X2,....,Xn
+Define X1,X2,....,independent if P(X1<=x1,...,Xn<=xn)[jioint CDF]=P(X1<=x1)...P(Xn<=xn) 
+for all x1,...,xn. 
+
+Discrete case: P(X1=x1,X2=x2,....,Xn=xn) = P(X1=x1)....P(Xn=xn) 
+
+Pairwise independent does not mean independent. Ex:
+X1,X2~Bern(.5) i.i.d. X3={ 1, if X1=X2; 0, otherwise} 
+These are pairwise independent, not independent. 
+
