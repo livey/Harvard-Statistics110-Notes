@@ -3,7 +3,7 @@ Continuous distribution   vs Discrete distribution
     PDF f_x(x)[P(X=x)=0]      PMF P(X=x) 
     CDF F_x(x)=P(X<=x)        CDF F_x(x) = P(X<=x) 
     E(X) = \int xf(x)dx       E(X) = \sum P(X=x)x
-    
+    Eg(X)=\sum g(x)p(x)                    E(g(X)) = \int g(x)f(x)dx 
 PDF(probability density function) 
 Define, Random variable has PDF f(x) if P(a<=x<=b)=\int_a^b f(x)dx 
 all a,b. if a=b => \int_a^b f(x)  = 0; 
@@ -26,6 +26,15 @@ Unif(a,b) "completely random point in [a,b]" Unif: Prob is propotional to its le
 f(x) = {c, if a<=b<=b ; 0, otherwise. } => 1=\int_a^b cdx => c=1/(b-a). 
 F(X)=\int_{-\inf}^x f(t)dt={0, if x<a; 1, if x>b; (x-a)/(b-a) if a<=x<=b.} 
 
-E(x) = \int_a^b x/(b-a)dx = (b^2-a^2)/(b-a)/2=(b+a)/2; 
+E(X) = \int_a^b x/(b-a)dx = (b^2-a^2)/(b-a)/2=(b+a)/2; 
+Let Y=X^2, E(X^2)=E(Y), need the PDF of Y? 
+E(X^2) = \int_{-\inf}^\inf x^2f(x)dx =
+E(g(X)) = \int g(x)f(x)dx 
 
+Uniform is Universal 
+X~Unif(0,1), we can simulate other distributions using this simple distribution. 
+Let U~Unif(0,1), F be a CDF( assume F is strictly increasing) 
+
+Theorem Let X=F^{-1}(U). Then X~f. 
+Proof, P(X<=x)=P(F^{-1}(u)<=x)=P(U<=F(x))=F(x)
 
