@@ -1,1 +1,8 @@
 Missing the notes because of the network!!!!
+
+Triple birthday problem. 
+Ex. Have n people, find the approximate probability that three people thave the same birthday. 
+Assume n is reasonable large. 
+(n,3) triplets of people, indicator random variable for each, I_{ijk}, i<j<k. 
+E(#triple matches) = (n,3)*1/365/365 
+X=# triple matches. Approx Pois(\lambda), \lambda =(n,3)1/365^2 
