@@ -7,5 +7,8 @@ Continuous distribution   vs Discrete distribution
 PDF(probability density function) 
 Define, Random variable has PDF f(x) if P(a<=x<=b)=\int_a^b f(x)dx 
 all a,b. if a=b => \int_a^b f(x)  = 0; 
+To be valid, f(x) >=0, \int_\-inf^inf f(x) dx = 1; 
+f(x_0)\epsilon = P(X\in (x_0-\epsilon,x_0+\epsilon)) for \epsilong is very small. 
 
+If X has PDF f, the CDF is F(x) = P(X<=x) = \int_{-\inf}^x f(t)dt 
 
