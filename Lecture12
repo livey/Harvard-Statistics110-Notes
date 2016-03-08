@@ -14,4 +14,18 @@ If X has PDF f, the CDF is F(x) = P(X<=x) = \int_{-\inf}^x f(t)dt
 if X has CDF F (and X is a continuous variable ) then f(x)= \partial F(x)/ \partial x 
 P(a<X<b) = \int_a^b f(x)dx = F(b)-F(a) 
 
+Variance: 
+Var(X) = E(X-E(X))^2
+Standard deviation: SD(X) = \sqrt{Var(X)}
+Another way to express variance: 
+Var(X) = E(X^2)-E^2(X)  
+                    implies E(X^2) >= E^2(X) always hold true, only when X==const. , the equality holds. 
+                    
+                    
+Unif(a,b) "completely random point in [a,b]" Unif: Prob is propotional to its length
+f(x) = {c, if a<=b<=b ; 0, otherwise. } => 1=\int_a^b cdx => c=1/(b-a). 
+F(X)=\int_{-\inf}^x f(t)dt={0, if x<a; 1, if x>b; (x-a)/(b-a) if a<=x<=b.} 
+
+E(x) = \int_a^b x/(b-a)dx = (b^2-a^2)/(b-a)/2=(b+a)/2; 
+
 
