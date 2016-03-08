@@ -22,3 +22,25 @@ Pairwise independent does not mean independent. Ex:
 X1,X2~Bern(.5) i.i.d. X3={ 1, if X1=X2; 0, otherwise} 
 These are pairwise independent, not independent. 
 
+Normal distribution(Central Limit Theorem: sum of a lot i.i.d. r.v.s looks Normal)
+N(0,1) has PDF f(z)=1/\sqrt{2*\pi}e^{-5*z^2}=ce^{-.5*z^2} c: normalizing constant
+
+\int_{-\inf}^{\inf} e^{-0.5*z^2}dz(impossible to get a closed form)
+
+1. \int_{-\inf}^{\inf} e^{-.5*z^2}dz * \int_{-\inf}^{\inf} e^{-.5*z^2}dz
+  = \int_{-\inf}^{\inf} e^{-.5*x^2}dx* \int_{-\inf}^{\inf} e^{-.5*y^2}dy
+  =\int\int e^{-0.5*(x^2+y^2)dxdy)
+  =\int_{0}^{2\pi}\int_{0}^\inf  e^{-r^2/2)*r dr d\theta 
+  =2*\pi 
+===> c=1/\sqrt{2\pi}  
+
+Z~ N(0,1) 
+E(Z) = 0 (because of symmetry: if g(x) is an odd function, g(-x)=-g(x),then integrate from -a to a, we get zero)
+Var(Z)=E(Z^2)-E^2(Z)=E(Z^2) 
+      =2/\sqrt{2*pi} \int_0^\inf z^2*e^{-z^2/2} dz = 1 
+
+Notation: \Phi is the standard Normal CDF 
+\Phi(z)=1/\sqrt{2*\pi}\int_{-\inf}^z e^{-t^2/2} dt
+\Phi(-z)= 1 - \Phi(z) 
+
+
