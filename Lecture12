@@ -2,7 +2,7 @@ Continuous distribution   vs Discrete distribution
 
     PDF f_x(x)[P(X=x)=0]      PMF P(X=x) 
     CDF F_x(x)=P(X<=x)        CDF F_x(x) = P(X<=x) 
-    
+    E(X) = \int xf(x)dx       E(X) = \sum P(X=x)x
     
 PDF(probability density function) 
 Define, Random variable has PDF f(x) if P(a<=x<=b)=\int_a^b f(x)dx 
@@ -11,4 +11,7 @@ To be valid, f(x) >=0, \int_\-inf^inf f(x) dx = 1;
 f(x_0)\epsilon = P(X\in (x_0-\epsilon,x_0+\epsilon)) for \epsilong is very small. 
 
 If X has PDF f, the CDF is F(x) = P(X<=x) = \int_{-\inf}^x f(t)dt 
+if X has CDF F (and X is a continuous variable ) then f(x)= \partial F(x)/ \partial x 
+P(a<X<b) = \int_a^b f(x)dx = F(b)-F(a) 
+
 
