@@ -6,3 +6,5 @@ Assume n is reasonable large.
 (n,3) triplets of people, indicator random variable for each, I_{ijk}, i<j<k. 
 E(#triple matches) = (n,3)*1/365/365 
 X=# triple matches. Approx Pois(\lambda), \lambda =(n,3)1/365^2 
+Note, I_{1,2,3} I_{1,2,4} are not independet. But weak dependent. 
+P(X>=1)=1-P(X=0) \approx 1-e^-\lambda \lambda^0/0! = 1-e^{-\lambda}
