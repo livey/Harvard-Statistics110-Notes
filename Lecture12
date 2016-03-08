@@ -1,0 +1,11 @@
+Continuous distribution   vs Discrete distribution 
+
+    PDF f_x(x)[P(X=x)=0]      PMF P(X=x) 
+    CDF F_x(x)=P(X<=x)        CDF F_x(x) = P(X<=x) 
+    
+    
+PDF(probability density function) 
+Define, Random variable has PDF f(x) if P(a<=x<=b)=\int_a^b f(x)dx 
+all a,b. if a=b => \int_a^b f(x)  = 0; 
+
+
