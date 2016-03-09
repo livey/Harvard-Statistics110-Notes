@@ -44,11 +44,27 @@ E(X^2) = \sum_{k=0} k^2 \lambda^k/k! e^{-\lambda} =
 
 \sum_k k\lambda^{k-1}/k!  = e^\lambda 
 multiply \lambda on both sides 
-\lambda \sum_k k*\lambda^{k-1}/k! = \lambdae^\lambda 
+\lambda \sum_k k*\lambda^{k-1}/k! = \lambda e^\lambda 
 \sum_k k\lambda^k/k!=\lambda*e^\lambda 
 
+Var(X)=\lambda^2+\lambda-\lambda^2 = \lambda 
 
+##Binomial Variance 
+X~Bin(n,p) use if X, Y are independent, then V(X+Y) =Var(X)+Var(Y) Binomail is n independent Bernoulli trials 
+Var(X)=Var(X1)+Var(X2)+...+Var(Xn) = npq 
+or 
+X= I1+I2+...In
+X^2=I1^2+I2^2+..+In^2+2I1I2+2I1I3+..+2In-1*In 
+E(X^2) = nE(I1^2) + 2*(n,2)E(I1I2) (for symmetry property) 
+       =np + n(n-1)p^2 =np.
+So, 
+Var(X)=E(X^2)-E(X)^2=np-(np)^2 = npq. 
 
+##Prove LOTUS for discrete sample space 
+E(g(x))= \sum g(x)P(X=x) 
+  
+\sum_x g(x)P(X=x) = \sum_s g(X(s))P({s}) 
+\sum_x \sum_{s:X(s)=x} g(X(s))P({s}) = \sum_x g(x) \sum_{s:X(s)=x} P({s})=\sum_x g(x) P(X=x) 
 
 
 
