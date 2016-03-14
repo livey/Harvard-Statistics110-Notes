@@ -41,6 +41,10 @@ f(x,y) = f_x(x)f_y(y) for all real x and y.
 P(X=x) = \sum_y P(X=x,Y=y)
 f_y(y)  = \int_\-inf^\inf f_x,y(x,y)dx 
 
+Exam. Uniform on square{(x,y): x,y\in [0,1]} joint PDF const. on the square and 0 outside the square. 
+f(x,y) = 1; (x,y)\in[0,1]^2. X,Y is independent. 
 
-
+Ex. Unif in a disc. X^2+Y^2<=1; 
+joint PDF: f(x,y) = 1/(\pi)(ihnside the disc, otherwise 0 ). 
+So they are dependent. Given X=x, -\sqrt{1-x^2} <=y<=\sqrt{1-x^2}
 
