@@ -57,9 +57,7 @@ E(X)= \sum_x x*p(X=x)
 Two Envelope Paradox 
 one envelope contains twice as much as other one. 
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
-
-
+<img src="http://www.forkosh.com/mathtex.cgi? \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}">
 
 
 
