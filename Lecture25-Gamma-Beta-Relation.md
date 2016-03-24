@@ -58,7 +58,7 @@ Two Envelope Paradox
 one envelope contains twice as much as other one. 
 
 
-
+$\Gamma$
 
 
 
