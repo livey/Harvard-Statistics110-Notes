@@ -57,8 +57,7 @@ E(X)= \sum_x x*p(X=x)
 Two Envelope Paradox 
 one envelope contains twice as much as other one. 
 
-
-$\Gamma$
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= \Gamma(a,b)" style="border:none;">
 
 
 
