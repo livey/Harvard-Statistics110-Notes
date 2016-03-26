@@ -41,4 +41,14 @@ Var(X)  = E(Var(X|Q))+ Var(E(X|Q))
 		=E(nQ(1-Q))+ Var(nQ)
 		=n*a*b/(a+b+1)/(a+b)
 		
+Ex. Store with a random number of customers N=number of customers. 
+Let Xj be the amount of j'th customers spends, Xj has mean \mu, Var \sigma^2 
+assume N,X1,X2,...,XN are independent. 
+Find the mean and var of X = \sum_j^N Xj 
 
+E(X) = \sum_{n=0}^\inf E(X|N=n)P(N=n) = \sum_0^\inf \mu*n*P(N=n) = \mu*E(N)
+
+E(X) = E(E(X|N)) = E(N*\mu) = E(N)*\mu  
+Var(X)  = E(Var(X|N)) + Var(E(X|N)) 
+		= E(N\sigma^2) + Var(N*\mu)
+		= \sigma^2*E(N) + \mu^2*Var(N)
